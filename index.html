@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Number guess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo-propio-gris.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="Think a number between 1 and 100 and I will guess it.">
+    <meta property="og:title" content="Number guess">
+    <meta property="og:description" content="Think a number between 1 and 100 and I will guess it.">
+    <meta property="og:image" content="imgs/logo-propio-gris.svg">
+  </head>
+  <body>
+    <div class="container">
+      <h3>I am Thinking of a number Between 1-100.</h3>
+      <h3>Can you Guess it?</h3>
+
+      <input type="text" placeholder="Num" id="guess" value=""><br>
+      <button onclick="play()" id="my_btn">GUESS</button>
+      <div id="reset"></div>
+      <p id="msg1">No. of guess : 0</p>
+      <p id="msg2">Guessed number are : none</p>
+      <p id="msg3"></p>
+    </div>
+    <script src="jugar.js"></script>
+  </body>
+</html>
