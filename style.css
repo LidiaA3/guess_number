@@ -10,7 +10,7 @@ body{
 .container{
   position: absolute;
   width: 50%;
-  min-width: 480px;
+  min-width: 580;
   transform: translate(-50%,-50%);
   top: 50%;
   left: 50%;
@@ -62,5 +62,8 @@ p{
   }
   button{
     width: 100%;
+  }
+  .container{
+    min-width: 320;
   }
 }
