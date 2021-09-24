@@ -19,19 +19,19 @@ function play(){
     no_of_guesses += 1;
 
       if(user_guess < answer){
-        alert("Numero bajo");
+        //alert("Numero bajo");
         msg1.innerHTML = "Your Guess is too low";
         msg2.innerHTML = "No. of Guesses : " + no_of_guesses;
         msg3.innerHTML = "Guessed number are:" + guesses_num;
       }
         else if(user_guess > answer){
-          alert("Número alto");
+          //alert("Número alto");
           msg1.innerHTML  = "Your guess is too high";
           msg2.innerHTML  = "No. of guesses : " + no_of_guesses;
           msg3.innerHTML  = "Guessed number are: " + guesses_num;
         }
         else if(user_guess == answer){
-          alert("Número correcto");
+          //alert("Número correcto");
           msg1.innerHTML  = "Yahhhh you won it!!!";
           msg2.innerHTML  = "The number was " + answer;
           msg3.innerHTML  = "You guessed it in " + no_of_guesses + "guesses.";
