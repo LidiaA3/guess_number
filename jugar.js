@@ -30,7 +30,7 @@ function play(){
         else if(user_guess == answer){
           msg1.innerHTML = "Yahhhh you won it!!!";
           msg2.innerHTML = "The number was " + answer;
-          msg3.innerHTML = "You guessed it in " + no_of_guesses + "guesses.";
+          msg3.innerHTML = "You guessed it in " + no_of_guesses + " guesses.";
           reset.innerHTML = "<button onclick=\"location.reload()\">RESET GAME</button>";
         }
         else {
