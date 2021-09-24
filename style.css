@@ -10,7 +10,7 @@ body{
 .container{
   position: absolute;
   width: 50%;
-  min-width: 580;
+  min-width: 480px;
   transform: translate(-50%,-50%);
   top: 50%;
   left: 50%;
@@ -65,6 +65,6 @@ p{
   }
   .container{
     width: 80%;
-    min-width: 320;
+    min-width: 320px;
   }
 }
